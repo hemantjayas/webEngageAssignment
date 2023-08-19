@@ -6,7 +6,7 @@ console.log(userData)
 
 const resultContent=  document.getElementById("resultContent");
 
-resultContent.textContent = `“Thanks a ton for taking out your precious time and for completing the survey
-Email Address: ${userData.email}
-Contact Number: ${userData.dialCode}-${userData.mobile}”
+resultContent.innerHTML = `Thanks a ton for taking out your precious time and for completing the survey </br>
+Email Address: ${userData.email} </br>
+Contact Number: ${userData.dialCode}-${userData.mobile}
 `
