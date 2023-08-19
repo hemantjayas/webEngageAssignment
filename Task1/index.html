@@ -15,19 +15,25 @@
 <body>
 
     <div class="mainContainer">
-        <div class="leftImage"><img src="/Task1/assets/model.jpg" alt=""></div>
+        <div class="leftImage"><img src="/Task1/assets/mainImg (1).webp" alt=""></div>
+        <div class="companyLogo"><img src="/Task1/assets/WebEngage.webp" alt=""></div>
         <div class="rightForm">
             <div class="innerDiv">
                 <h1>Get a FREE</h1>
                 <h2>Consultation with an expert</h2>
-                <input id="emailInput" class="inputClass" type="email" placeholder="Enter your email" required>
-                <div class="selectDiv">
+                <div id="inputContainer" class="inputContainer">
+
+                    <input id="emailInput" class="inputClass" type="email" placeholder="Enter your email" required>
+                </div>
+                <div id="mobileContainer" class="selectDiv">
                     <select name="" id="country-select" class="selectClass" required>
 
                     </select>
                     <input id="mobileInput" class="selectInput" type="number" placeholder="Enter your mobile" required>
                 </div>
-                <button id="submitButton" class="buttonClass">Talk to Us <img src="/Task1/assets/arrow1.png" alt=""></button>
+                <p id="errorMessage"></p>
+                <button id="submitButton" class="buttonClass">Talk to Us <img src="/Task1/assets/arrow1.png"
+                        alt=""></button>
             </div>
         </div>
     </div>
