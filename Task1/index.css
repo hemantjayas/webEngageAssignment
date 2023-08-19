@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.leftImage {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.leftImage>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.rightForm {
+    width: 45%;
+    /* background-color: green; */
+    /* height: 100%; */
+    padding: 2rem;
+    text-align: center;
+}
+
+.rightForm h1 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+.rightForm h2 {
+    font-size: 2rem;
+
+    margin-bottom: 3rem;
+}
+
+.innerDiv {
+    width: 80%;
+    margin: auto;
+    padding: 4rem 1rem;
+    /* background-color: red; */
+    margin-top: 4rem;
+}
+
+.inputClass {
+    width: 100%;
+    padding: .7rem;
+    outline: none;
+    font-size: 1rem;
+margin: 1rem 0;
+
+}
+
+.selectDiv {
+    width: 100%;
+    padding: .7rem 0;
+    display: flex;
+    
+}
+
+.selectClass {
+    width: 15%;
+    padding: .7rem;
+    outline: none;
+}
+
+.selectInput {
+    width: 85%;
+    padding: .7rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+.buttonClass{
+    width: 100%;
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    column-gap: .5rem;
+    border: none;
+    color: white;
+    background-color: black;
+    margin: 1rem 0;
+}
+.buttonClass img{
+    width: 1.5vw;
+    filter: invert(1);
+
+  
+    
+}
