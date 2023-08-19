@@ -97,6 +97,7 @@ margin: 1rem 0;
     color: white;
     background-color: black;
     margin: 1rem 0;
+    cursor: pointer;
 }
 .buttonClass img{
     width: 1.5vw;
