@@ -24,7 +24,7 @@ This is a 2-page mobile responsive onsite survey web app that captures user inpu
   - [Customization](#customization)
   - [Deployment](#deployment)
   - [Credits](#credits)
-- [- Expectation Management \& Cross-Functional Collaboration (Task 3)](#--expectation-management--cross-functional-collaboration-task-3)
+- [Expectation Management \& Cross-Functional Collaboration (Task 3)](#expectation-management--cross-functional-collaboration-task-3)
   - [Approach to Solving the Issue:](#approach-to-solving-the-issue)
 
 ## Project Overview
@@ -135,7 +135,7 @@ To deploy the project, consider using various hosting options like shared hostin
 
 
 
-# - Expectation Management & Cross-Functional Collaboration (Task 3)
+# Expectation Management & Cross-Functional Collaboration (Task 3)
 
 Context:
 You have two tasks above (Task 1 & Task 2). Take tomorrow’s date as the original due date for
@@ -147,7 +147,7 @@ needs to go live in the next 2 days.
 
 ## Approach to Solving the Issue:
 
-1. **Prioritizationof the tasks:**  According to the family emergency I need the manage the tasks effectively. My Apporach would be to complete the task which has higher priority. And will inform the respective managers about the delay in completing the tasks. Then I will focus on completing the lower priority task within the given time or with little extension if needed.
+1. **Prioritization of the tasks:**  According to the family emergency I need the manage the tasks effectively. My Apporach would be to complete the task which has higher priority. And will inform the respective managers about the delay in completing the tasks. Then I will focus on completing the lower priority task within the given time or with little extension if needed.
   
 2. **Communication with Account Managers:** I will be in constant touch with both the account managers to explain the situation and the approach by which I am completing the tasks and to maintain the transprancy in the work.
 
