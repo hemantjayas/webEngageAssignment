@@ -15,11 +15,7 @@ const getData = async () => {
     users = [...resp.data]
 }
 
-console.log(users)
-
-
 // creating a server
-
 const httpServer = http.createServer((req, res) => {
     res.statusCode = 200
     res.setHeader("content-type", "text/html");
