@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product List</title>
+    </head>
+    <body>
+        {%if users.length!==0%}
+            <h1>1. When ID is even</h1>
+            <ul>
+
+                {% for user in users %}
+
+                    {% if user.id%2===0%}
+                        <li>{{ user.name }} - {{ user.username }} - {{ user.email }}</li>
+                        {%else%}
+                        <li>I'm Odd</li>
+                        {%endif%}
+                    {% endfor %}
+
+                </ul>
+
+                <h1>Address Details based on IDs</h1>
+                <ul>
+                    {% for user in users %}
+                        <li>
+                ID: {{user.id}}
+             Address: {{user.address.suite}}, {{user.address.street}}, {{user.address.city}}, {{user.address.zipcode}}
+
+                        </li>
+                        {%endfor%}
+                    </ul>
+
+                    <h1>Email ends with .biz</h1>
+                    <ul>
+                        {% for user in users %}
+                            {% if user.email.split(".").reverse()[0]==="biz"%}
+                                <li>Name: {{ user.name }}
+Email: {{ user.email }}
+                                </li>
+                                {%endif%}
+                                {%endfor%}
+                            </ul>
+
+                            <h1>If city contains any of following "Aliyaview", "Howemouth", "Gwenborough"</h1>
+                            <ul>
+                                {% for user in users%}
+                                    {% if user.address.city in["Aliyaview", "Howemouth", "Gwenborough"] %}
+                                        <li> The Zipcode and Geo of {{user.address.city}} is: {{user.address.zipcode}} Geo: {{user.address.geo.lat}}, {{user.address.geo.lng}}
+                                        </li>
+                                        {% endif%}
+                                        {%endfor%}
+                                    </ul>
+
+                                    <h1>CatchPhrase which will contain max 15 letters</h1>
+                                    <ul>
+                                        {% for user in users%}
+                                            <li>CatchPhrase: {{ user.company.catchPhrase.split("").slice(0,15).join("") }}</li>
+                                            {%endfor%}
+                                        </ul>
+                                        {%endif%}
+                                    </body>
+                                </html>
